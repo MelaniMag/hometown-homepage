@@ -1,6 +1,7 @@
 body {
     margin: 0;
     text-align: center;
+    color: #f3f0d4;
     font-family: "Lilita One", sans-serif;
 }
 
@@ -11,10 +12,31 @@ img {
 #hero {
     background-image: url(images/milwaukee.png);
     background-size: cover;
-    padding: 10px 0 600px 0;
-    color: white;
+    height: 700px;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
     text-shadow: 0px 0px 4px black;
+}
+
+#heading {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding-top: 250px;
+    font-size: larger; 
+
+}
+
+#hero-title {
+    background:#4eb6c3;
+    padding: 2px 0 2px 0;
+    border-radius: 50px;
+}
+
+#hero-quote {
+    background: #4eb6c3;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin: 0;
 }
