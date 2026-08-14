@@ -79,3 +79,7 @@ h1, h2, h3, h4, p {
 .larger-text {
     font-size: large;
 }
+
+.middle-align {
+    margin: 0 45px;
+}
