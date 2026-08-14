@@ -40,3 +40,36 @@ h1, h2, h3, h4, p {
     border-radius: 50px;
     margin: 0;
 }
+
+#activities {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#middle-section {
+    height: 450px;
+    padding-top: 10px;
+    background: #4b8c7f;
+}
+
+#activities-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 130px;
+    padding: 0 40px;
+}
+
+/* #a {
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    padding: 20px;
+} */
