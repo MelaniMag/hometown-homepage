@@ -42,18 +42,29 @@ h1, h2, h3, h4, p {
 }
 
 #activities {
-    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
 }
 
 #middle-section {
-    height: 450px;
+    height: 500px;
     padding-top: 10px;
     background: #4b8c7f;
+}
+
+#middle-title {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 100px 0px;
+    font-size: x-large;
+}
+
+.middle-imgs {
+    border-radius: 50px;
+    width: 150px;
+    height: 120px;
 }
 
 #activities-imgs {
@@ -61,15 +72,10 @@ h1, h2, h3, h4, p {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 130px;
+    /* margin-top: 130px; */
     padding: 0 40px;
 }
 
-/* #a {
-    margin: 0;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    flex-direction: column;
-    padding: 20px;
-} */
+.larger-text {
+    font-size: large;
+}
