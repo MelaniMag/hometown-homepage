@@ -83,3 +83,14 @@ h1, h2, h3, h4, p {
 .middle-align {
     margin: 0 45px;
 }
+
+.card {
+    width: 400px;
+    margin: 60px auto 70px auto;
+    background-color: #ea6a46;
+    padding: 50px 70px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
