@@ -86,7 +86,7 @@ h1, h2, h3, h4, p {
 
 .card {
     width: 400px;
-    margin: 60px auto 70px auto;
+    margin: 100px auto 150px auto;
     background-color: #ea6a46;
     padding: 50px 70px;
     text-align: center;
@@ -106,4 +106,9 @@ h1, h2, h3, h4, p {
     padding: 6px;
     background: #4eb6c3;
     border-radius: 20px;
+}
+
+.card:hover {
+    background-image: url("images/wi-flag.png");
+    background-size: cover;
 }
