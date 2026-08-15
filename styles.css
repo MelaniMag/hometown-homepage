@@ -93,4 +93,17 @@ h1, h2, h3, h4, p {
     display: flex;
     justify-content: space-around;
     border-radius: 20px;
+    border-bottom: 8px solid #e4c642;
+}
+
+#avator {
+    border-radius: 40px;
+    margin-right: 50px;
+    width: 150px;
+}
+
+#card-info {
+    padding: 6px;
+    background: #4eb6c3;
+    border-radius: 20px;
 }
