@@ -100,7 +100,7 @@ h1, h2, h3, h4, p {
 
 }
 
-#avator {
+#avatar {
     border-radius: 40px;
     margin-right: 50px;
     width: 150px;
@@ -114,10 +114,9 @@ h1, h2, h3, h4, p {
 
 .card:hover {
     background-image: url("images/wi-flag.png");
-    background-size: cover;
+    background-size: 100px;
 }
 
 .middle-imgs:hover {
-    width: 270px;
-    height: 250px;
+    transform: scale(2);
 }
