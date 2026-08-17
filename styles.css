@@ -96,6 +96,8 @@ h1, h2, h3, h4, p {
     justify-content: space-around;
     border-radius: 20px;
     border-bottom: 8px solid #e4c642;
+    box-shadow: 2px 3px 10px black;
+
 }
 
 #avator {
